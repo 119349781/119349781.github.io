@@ -1,0 +1,75 @@
+
+
+/* making all the headings have the font comic sans */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+font-family: "comic sans ms";
+Text-align: center;
+}
+
+/* adding some attributes to a navigation panel */
+#navpanel {
+     Position: absolute;
+     Background-color: #A6D9F7; /*#B5BEC6*/
+     top: 7em;
+     left: 0em;
+     Width: 10em;
+     Padding-top: 1em;
+}
+
+/* changing the colour, position and size of the buttons */
+button {
+	height: 60px;
+	width: 150px;	
+	background-color: #F7C4A6;
+	margin-left: 20%;
+	border-radius: 25px;
+} 
+
+
+/*setting the position for the main body content of all pages */
+#content {
+	position: absolute;
+	top: 5em;
+	Left: 15em;
+	width:75%;
+	height:90%;
+	padding-left:1em;
+	padding-top:1.5em;
+}
+
+/* adding attributes to the header div */
+#header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: #a6f7c4;
+}
+/* attribues for the images on the interests page */
+#slider {
+	width: 720px;
+	height: 400px;
+	overflow: hidden;
+}
+
+#slider .slides {
+	display: block;
+	width: 6000px;
+	height: 400px;
+	margin:0;
+	padding:0;
+}
+
+#slider .slide {
+	float: left;
+	list-style-type: none;
+	width: 720px;
+	height: 400px;
+}
+
+
